@@ -1,0 +1,26 @@
+body{
+    font-family: lora, 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #95a5a6;
+    background-color: #ffffff;
+}
+/************HEADER**************/
+header{
+    background: url("../img/start-bg.jpg")no-repeat scroll 0 0/ cover;
+    text-align: center;
+    color: #ffffff;
+}
+.header-title{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.header-top-title{
+    font-family: Rokkitt, 'Open Sans', sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+}
+.header-bottom-title{
+    font-family: Quicksand, 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+}
