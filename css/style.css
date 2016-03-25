@@ -24,6 +24,17 @@ header{
     font-size: 22px;
     line-height: 22px;
 }
+.buttons{
+    font-family: Rokkitt, 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1abc9c;
+    padding: 10px 15px;
+}
+/************TOP-FIXED NAVIGATION**************/
+
+
 /************ABOUT**************/
 .page-view{
     padding-top: 150px;
@@ -46,4 +57,12 @@ header{
 .main-content{
     line-height: 1.75;
     font-size: 15px;
+}
+/************WORK**************/
+
+/************CONTACT**************/
+.contact-name{
+    font-family: Rokkitt, 'Open Sans', sans-serif;
+    color: #1abc9c;
+    font-size: 60px;
 }
