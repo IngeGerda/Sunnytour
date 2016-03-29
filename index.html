@@ -26,8 +26,37 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <body id="start">
-<nav>
-
+<nav class="navbar navbar-default navbar-fixed-top top-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="logo">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#home">Sunny tour</a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse header-nav" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="scroll" href="#start">Start</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#about">About me</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#work">Work</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#contact">Contact</a>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </div>
 </nav>
 <header>
     <div class="container">
@@ -51,14 +80,17 @@
         </div>
         <div class="row">
             <div class="col-md-4 text-center">
+                <i class="fa fa-pencil-square-o fa-4x ab-icons"></i>
                 <h4 class="ab-designation">Sketching in fun</h4>
                 <p class="main-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
             </div>
             <div class="col-md-4 text-center">
+                <i class="fa fa-crosshairs fa-4x ab-icons"></i>
                 <h4 class="ab-designation">Design afterwards</h4>
                 <p class="main-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="col-md-4 text-center">
+                <i class="fa fa-sun-o fa-4x ab-icons"></i>
                 <h4 class="ab-designation">Finalize</h4>
                 <p class="main-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             </div>
@@ -104,13 +136,51 @@
             </div>
         </div>
         <div class="row">
-            
+            <div class="col-lg-12 contact-form">
+                <div class="form-style">
+                    <input type="text" class="form-control left-side" value="Name" maxlength="20" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"/>
+                    <input type="text" class="form-control" value="Email" maxlength="20" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"/>
+                </div>
+                <div class="form-style">
+                    <textarea class="form-control" name="" id="" cols="30" rows="8" value="How can I help you?" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'How can I help you?';}">
+                    </textarea>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <div class="">
+                    <a class="buttons" href="#">Send message</a>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
 <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 social-icon">
 
+            </div>
+            <div class="col-md-4 social-icon">
+
+            </div>
+            <div class="col-md-4 social-icon">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left-grid-box">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-grid-box">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
+

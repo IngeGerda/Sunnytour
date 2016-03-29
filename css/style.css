@@ -24,17 +24,48 @@ header{
     font-size: 22px;
     line-height: 22px;
 }
+/************BUTTONS**************/
 .buttons{
+    font-family: Rokkitt, 'Open Sans', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1abc9c;
+    padding: 20px 30px;
+}
+/************TOP-FIXED NAVIGATION**************/
+.top-nav{
+    background: transparent;
+    border-color: transparent;
+    margin-top: 35px;
+}
+.top-nav .header-nav ul li a{
     font-family: Rokkitt, 'Open Sans', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #1abc9c;
-    padding: 10px 15px;
 }
-/************TOP-FIXED NAVIGATION**************/
-
-
+.logo{
+    margin-top: 15px;
+}
+.navbar-header .logo a{
+    font-family: Rokkitt, 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.navbar-header .logo a:hover{
+    text-decoration: none;
+    color: #1abc9c;
+}
+.top-nav .header-nav ul li a:hover{
+    color: #1abc9c;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover{
+    color: #1abc9c;
+}
 /************ABOUT**************/
 .page-view{
     padding-top: 150px;
@@ -58,6 +89,9 @@ header{
     line-height: 1.75;
     font-size: 15px;
 }
+.ab-icons{
+    color: #1abc9c;
+}
 /************WORK**************/
 
 /************CONTACT**************/
@@ -65,4 +99,29 @@ header{
     font-family: Rokkitt, 'Open Sans', sans-serif;
     color: #1abc9c;
     font-size: 60px;
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 26px;
+    background-color: #e4e8e8;
+    font-family: Rokkitt, 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #cecece;
+    border: none;
+    border-radius:0;
+    width: 80%;
+}
+.contact-form input{
+    width: 38%;
+    display: inline;
+    margin-bottom: 29px;
+}
+.left-side{
+    margin-right: 39px;
+}
+/************FOOTER**************/
+footer{
+    background-color: #1abc9c;
+    height: 239px;
+
 }
